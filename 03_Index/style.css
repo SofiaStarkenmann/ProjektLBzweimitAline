@@ -13,6 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -32,16 +33,21 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 10px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: white;
+    position: fixed;
+    z-index: 999;
+
 }
 
 header .logo{
 
     position: relative;
     max-width: 80px;
+
 }
 
 header ul{
@@ -55,10 +61,11 @@ header ul li{
 header ul li a{
     display: inline-block;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 40px;
     text-decoration: none;
 }
+
 
 .content{
  position: relative;
@@ -66,35 +73,40 @@ header ul li a{
  display: flex;
     justify-content: space-between;
     align-items: center ;
+
 }
 
 .content .textBox{
   position: relative;
-    max-width: 600px;
+    max-width: 550px;
+
 }
 
 .content .textBox h1{
    color: tan;
     font-size: 4em;
     line-hight: 1.4em;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 20px;
 
 }
 
 .content .textBox h2 span{
    color: darkgray;
-    font-size: 1.2em;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 600;
     color: darkgray;
+    letter-spacing: 2px;
+    line-height: 28px;
 
 
 }
-
-.content .textBox p{
-    color: black;
-    padding-top: 20px;
+.textBox p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
 }
+
 
 .content .textBox a{
     display: inline-block;
@@ -104,10 +116,18 @@ header ul li a{
     color: white;
     border-radius:50px;
     font-weight: 500;
-    letter-spacing: 1px;
     text-decoration: none;
+    letter-spacing: 1px;
+
+
 
 }
+.content .textBox a:hover{
+    background: black;
+    transition: .4s;
+}
+
+
 
 .content .HomeBild{
  width: 600px;
@@ -161,6 +181,8 @@ position: absolute;
 .Über mich{
 width: 100%;
 padding: 100px 0px;
+
+
 }
 
 .main img{
@@ -168,7 +190,9 @@ height: 400px;
 width: auto;
 }
 .about-text{
-width: 550px;
+width: 500px;
+    font-weight:500;
+    font-size: 32px;
 }
 .main{
 width: 1130px;
@@ -181,11 +205,11 @@ justify-content: space-around;
 
 .about-text h2{
 color:darkgrey;
-font-size: 3em;
+
 text-transform: capitalize;
 margin-bottom: 20px;
-line-hight: 1.4em;
-font-weight: 500;}
+line-hight: 28px;
+font-weight: 600;}
 
 .about-text h5{
 color: tan;
@@ -193,6 +217,7 @@ letter-spacing: 2px;
 font-size: 22px;
 margin-bottom: 25px;
 text-transform: capitalize;
+    line-height: 28px;
 }
 
 .about-text h5 span{
@@ -210,7 +235,7 @@ background-color: tan;
 color: white;
 text-decoration: none;
 border: 2px solid transparent;
-
+font-size: 16px;
     display: inline-block;
 
     padding: 10px 20px;
@@ -219,12 +244,14 @@ border: 2px solid transparent;
     border-radius:50px;
     font-weight: 500;
     letter-spacing: 1px;
+    transition: .4s;
 }
 
 button:hover{
 background-color: black;
 border: 2px tan
 cursor: pointer;
+    transition: .4s;
 }
 
 .service{
@@ -234,7 +261,8 @@ cursor: pointer;
 }
 
 .title h2{
-color: darkgrey;
+color: tan;
+    font-weight:600;
     font-size: 56px;
     width: 1130px;
     margin: 30px auto;
@@ -246,6 +274,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
+
 }
 
 .card{
@@ -253,7 +282,7 @@ display: flex;
     height: 365px;
     width: 300px;
     padding: 20px 35px;
-    background: tan;
+    background: black;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -262,55 +291,57 @@ display: flex;
 }
 
 .card .serviceIcons{
-    font-size: 50px;
+    font-size: 30px;
     display: block:
     text-align: center;
     marign: 25px;
-}
-
-.pfeil{
-    display: flex;
-    padding-top: 20px;
-    transform: rotate(20deg);
-    color: darkgrey;
 
 }
+
+
 
 h5{
     padding-top: 5px;
-    color: black;
-    font-size: 23px;
-    margin-bottom: 15px:
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 28px;
 
 }
 .container{
 position: relative;
-    min-width: 1000px;
+    min-width: 800px;
     min-height: 550px;
     display: flex;
 }
 
 .pra p{
     padding-top: 15px;
-    color: white;
-    font-size: 16px;
+    color: tan;
+    font-size: 18px;
     line-height: 27px;
     margin-bottom: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 28px;
 }
 
 .card .button{
-    background-color: darkgrey;
+    background-color: tan;
     color: white;
     text-decoration: none;
     border: 2px solid transparent:
     font-weight: bold;
-    padding: 13px 22px;
-    border-radius: 30px;
+    padding: 10px 20px;
+    border-radius: 50px;
     transition: .4s;
+    font-size: 16px;
 }
 
 .card .button:hover{
-    background-color: black;
+    background-color: darkgrey;
     border: 2px tan
     cursor: pointer;
 }
@@ -328,17 +359,19 @@ position: relative;
     justify-content: space-between;
     box-shadow: 0 20px 25px rgba(0,0,0,0.15);
 
+
 }
 .container .containerInfo h2{
     color: white;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 600;
 
 }
 .container .containerInfo ul.info{
     position: relative;
     margin: 50px 0;
-    max-width: 10%;
+   max-width: 60%;
+    letter-spacing: 1px;
 
 }
 
@@ -346,27 +379,33 @@ position: relative;
     position: relative;
     list-style: none;
     display: flex;
-    margin: 25px 0;
+    margin: 50px 0;
     cursor: pointer;
     align-items: flex-start;
+    letter-spacing: 1px;
+
 }
 
 
 .container .containerInfo ul.info li span:nth-child(1){
-    width: 30px;
+    width: 10px;
     min-width: 30px;
+    letter-spacing: 1px;
 }
 
 
 .container .containerInfo ul.info li span:nth-child(1)img{
     max-width: 100%;
     filter: invert(1);
+    letter-spacing: 1px;
 }
 
 .container .containerInfo ul.info li span:nth-child(2){
     color: white;
     margin-left: 10px;
-    font-weight:300;
+    margin-top: 5px;
+    font-weight:500;
+    letter-spacing: 1px;
 
 }
 
@@ -377,9 +416,9 @@ position: relative;
     padding: 70px 70px;
     padding-left: 250px;
     margin-left: 150px;
-    width: 910px;
+    width: 820px;
     height: 100%;
-    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+    box-shadow: 0 50px 50px  rgba(0,0,0,0.25);
 
 }
 
@@ -387,8 +426,12 @@ position: relative;
 
 .container .containerForm h2{
 color: tan;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 600;
+
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+
 
 }
 
@@ -397,7 +440,8 @@ color: tan;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding-top: 40px;
+    letter-spacing: 1px;
 
 }
 
@@ -405,6 +449,7 @@ color: tan;
 
 position: relative;
     margin-bottom: 5px;
+
 }
 
 .container .containerForm .formBox .inputBox .w50{
@@ -421,18 +466,20 @@ position: relative;
     resize: none;
     padding: 25px;
     padding-left: 0px;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 500;
     color: black;
     border: none;
     outline: none;
     border-bottom: 1px solid darkgrey;
+    line-height: 1px;
 
 
 }
 
 .container .containerForm .formBox .inputBox textarea{
  height:  120px;
+    padding-top: 35px;
 }
 
 .container .containerForm .formBox .inputBox span{
@@ -440,9 +487,10 @@ position: relative;
     left: 0;
     padding: 5px 0;
     pointer-events: none;
-    font-size: 16px;
-    font-weight: 300px;
-    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500px;
+    transition: 0.4s;
+    letter-spacing: 1px;
 }
 
 .container .containerForm .formBox .inputBox input:focus ~ span,
@@ -451,8 +499,8 @@ position: relative;
 .container .containerForm .formBox .inputBox textarea:valid ~ span{
 
     transform: translateY(-20x);
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 500;
     letter-spacing: 1px;
     color: tan;
     font-weight: 500;
@@ -471,14 +519,15 @@ position: relative;
     text-decoration: none;
     border: 2px solid transparent;
 
-
+    transiiton: 0.4s;
 
     padding: 15px 20px;
     background: tan;
     color: white;
     border-radius:50px;
     font-weight: 500;
-    letter-spacing: 1px;
+    font-size: 16px;
+
 
 
 }
@@ -523,8 +572,10 @@ footer{
 footer p:nth-child(1){
     font-size: 21px;
     color: white;
-    margin-bottom: 1px;
-    font-weight: bold;
+    margin-top: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
 
 }
 footer p:nth-child(2){
@@ -532,7 +583,8 @@ footer p:nth-child(2){
     color: white;
     width: 500px;
     text-align: center;
-    line-height: 26px;
+    line-height: 28px;
+    letter-spacing: 1px;
 
 
 }
