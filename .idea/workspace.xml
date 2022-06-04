@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c8cb2c2c-de1b-4c73-a273-5cc591c803ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Footage/02_Icon/blueprint_BOLD.svg" beforeDir="false" afterPath="$PROJECT_DIR$/01_Footage/02_Icon/blueprint_BOLD.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Footage/02_Icon/document_photoshop_BOLD.svg" beforeDir="false" afterPath="$PROJECT_DIR$/01_Footage/02_Icon/document_photoshop_BOLD.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Footage/02_Icon/photo_camera_BOLD.svg" beforeDir="false" afterPath="$PROJECT_DIR$/01_Footage/02_Icon/photo_camera_BOLD.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Footage/01_Bilder/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_Footage/01_Bilder/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Footage/01_Bilder/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_Footage/01_Bilder/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Footage/01_Bilder/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_Footage/01_Bilder/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Footage/01_Bilder/start5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_Footage/01_Bilder/start5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03_Index/Portfolio Sina Suter.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_Index/Portfolio Sina Suter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03_Index/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/03_Index/style.css" afterDir="false" />
     </list>
@@ -86,7 +87,8 @@
       <workItem from="1654008426188" duration="7326000" />
       <workItem from="1654021212973" duration="2354000" />
       <workItem from="1654264368792" duration="1598000" />
-      <workItem from="1654345999149" duration="12187000" />
+      <workItem from="1654345999149" duration="12212000" />
+      <workItem from="1654369042540" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="Hi, Test">
       <created>1653052718468</created>
@@ -144,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654359955997</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Letzti aktualisierig vom 4.06.2022 18:25 Uhr">
+      <created>1654368236710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654368236710</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

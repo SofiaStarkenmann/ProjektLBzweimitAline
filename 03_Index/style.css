@@ -438,14 +438,15 @@ position: relative;
 
 
 .container .containerForm{
-    z-index: 987;
+
     position: absolute;
     padding: 70px 70px;
     padding-left: 250px;
     margin-left: 70px;
     width: 820px;
     height: 100%;
-    box-shadow: 31px 5px 20px 5px rgba(0,0,0,0.2);
+
+
 
 }
 
@@ -602,4 +603,22 @@ padding-top: 20px;
 
 }
 
+
+#carouselExampleIndicators {
+   width: auto;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.silder-image{
+
+
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
