@@ -14,10 +14,13 @@
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
     scroll-behavior: smooth;
+
 }
 
 
-section{
+
+
+section {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -40,6 +43,7 @@ header{
     background: white;
     position: fixed;
     z-index: 999;
+    max-width: 100%;
 
 }
 
@@ -105,6 +109,7 @@ header ul li a{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
+
 }
 
 
@@ -121,10 +126,12 @@ header ul li a{
 
 
 
+
 }
 .content .textBox a:hover{
     background: black;
     transition: .4s;
+
 }
 
 
@@ -188,19 +195,23 @@ padding: 100px 0px;
 .main img{
 height: 400px;
 width: auto;
+    margin-left: 70px;
 }
 .about-text{
 width: 500px;
     font-weight:500;
     font-size: 32px;
+    margin-left:150px;
+
+
 }
 .main{
 width: 1130px;
 max-width: 95%;
-margin: 0 auto;
 display-items: cover;
 display: flex;
-justify-content: space-around;
+justify-content: flex-start;
+
 }
 
 .about-text h2{
@@ -230,7 +241,7 @@ margin-bottom: 45px;
 font-size: 18px;
 }
 
-button{
+#buttons{
 background-color: tan;
 color: white;
 text-decoration: none;
@@ -245,25 +256,27 @@ font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
     transition: .4s;
+    text-decoration: none;
 }
 
-button:hover{
+#buttons:hover{
 background-color: black;
 border: 2px tan
 cursor: pointer;
     transition: .4s;
+
 }
 
 .service{
 
     width: 100%;
-    padding: 100px 0px;
+
 }
 
 .title h2{
-color: tan;
+color: darkgray;
     font-weight:600;
-    font-size: 56px;
+    font-size: 40px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
@@ -349,30 +362,34 @@ position: relative;
 .container .containerInfo{
     z-index: 998;
     position: absolute;
-    width: 350px;
-    height: calc(100% - 80px);
+    width: 300px;
+    height: 500;
     background: tan;
-    opacity: 1;
-    padding: 40px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 11px 5px 18px 5px rgba(0,0,0,0.41);
+    box-shadow: 11px 5px 18px 5px rgba(0,0,0,0.21);
 
 
 }
 .container .containerInfo h2{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 1he5px;
 
 }
 .container .containerInfo ul.info{
     position: relative;
-    margin: 50px 0;
-   max-width: 60%;
+
+    margin-left: -34px;
+   max-width: 80%;
     letter-spacing: 1px;
+
+
 
 }
 
@@ -403,8 +420,8 @@ position: relative;
 
 .container .containerInfo ul.info li span:nth-child(2){
     color: white;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-left: 5px;
+
     font-weight:500;
     letter-spacing: 1px;
 
@@ -417,7 +434,7 @@ position: relative;
     position: absolute;
     padding: 70px 70px;
     padding-left: 250px;
-    margin-left: 150px;
+    margin-left: 70px;
     width: 820px;
     height: 100%;
     box-shadow: 31px 5px 20px 5px rgba(0,0,0,0.2);
@@ -442,7 +459,6 @@ color: tan;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
-    padding-top: 40px;
     letter-spacing: 1px;
 
 }
@@ -475,12 +491,21 @@ position: relative;
     outline: none;
     border-bottom: 1px solid darkgrey;
     line-height: 1px;
+    line-height: normal;
+
+    section #5{
+        min-height: auto;
+    }
+
+    section #3{
+        min-height: auto;
+    }
 
 
 }
 
 .container .containerForm .formBox .inputBox textarea{
- height:  120px;
+
     padding-top: 35px;
 }
 
@@ -523,36 +548,21 @@ position: relative;
 
     transiiton: 0.4s;
 
-    padding: 15px 20px;
+    padding: 10px 20px;
     background: tan;
     color: white;
     border-radius:50px;
     font-weight: 500;
     font-size: 16px;
-
-
-
+    margin-top: 55px;
 }
+
 
 
 
 .container .containerForm .formBox .inputBox input[type="submit"]:hover{
     background:black;
-
-}
-
-@media (max-width : 1000px){
-
-.container{
-    width: 90%
-    min-width: auto;
-    margin: 20px;
-
-}
-
-
-
-
+    transition: 0.4s;
 
 }
 
@@ -561,7 +571,8 @@ position: relative;
 footer{
     position: relative;
     width: 100%;
-    height: 80px;
+    height: 70px;
+
     background: tan;
     display: flex;
     flex-direction: column;
@@ -571,21 +582,13 @@ footer{
 
 }
 
-footer p:nth-child(1){
-    font-size: 21px;
-    color: white;
-    margin-top: 9px;
-    font-weight: 600;
-    letter-spacing: 1px;
-
-
-}
-footer p:nth-child(2){
+footer p:nth-child(1) {
     font-size: 12px;
     color: white;
     width: 500px;
     text-align: center;
-    line-height: 28px;
+padding-top: 20px;
+
     letter-spacing: 1px;
 
 
