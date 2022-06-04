@@ -15,6 +15,7 @@
     font-family: 'Sora', sans-serif;
     scroll-behavior: smooth;
 
+
 }
 
 
@@ -160,12 +161,14 @@ max-width: 340px;
 
     align-items: center;
     flex-direction: column;
+    margin-right: 10px;
 
 
 }
 
 .sci li{
     list-style: none;
+
 }
 
 .sci li a{
@@ -305,9 +308,14 @@ display: flex;
 
 .card .serviceIcons{
     font-size: 30px;
-    display: block:
+display: flex;
     text-align: center;
     marign: 25px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+   margin-left: 100px;
+    margin-bottom: 10px;
 
 }
 
@@ -554,7 +562,7 @@ position: relative;
     border-radius:50px;
     font-weight: 500;
     font-size: 16px;
-    margin-top: 55px;
+    margin-top: 60px;
 }
 
 
@@ -593,6 +601,5 @@ padding-top: 20px;
 
 
 }
-
 
 
