@@ -160,8 +160,9 @@ max-width: 340px;
     display: flex;
 
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin-right: 10px;
+    margin-right: 20px;
 
 
 }
@@ -190,21 +191,28 @@ position: absolute;
 }
 .Über mich{
 width: 100%;
-padding: 100px 0px;
-
-
+padding: auto;
 }
 
 .main img{
 height: 400px;
 width: auto;
-    margin-left: 70px;
+
+}
+
+.main .gif{
+    height: 75px;
+    width: auto;
+    transform: rotate(10deg);
+    display:flex;
+   position: absolute;
+    padding-left: 175px;
 }
 .about-text{
 width: 500px;
     font-weight:500;
     font-size: 32px;
-    margin-left:150px;
+    margin-left:100px;
 
 
 }
@@ -219,11 +227,8 @@ justify-content: flex-start;
 
 .about-text h2{
 color:darkgrey;
-
-text-transform: capitalize;
-margin-bottom: 20px;
-line-hight: 28px;
-font-weight: 600;}
+font-size: 36px;
+    font-weight: 600;}
 
 .about-text h5{
 color: tan;
@@ -379,6 +384,7 @@ position: relative;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 11px 5px 18px 5px rgba(0,0,0,0.21);
+
 
 
 }
@@ -606,8 +612,8 @@ padding-top: 20px;
 
 #carouselExampleIndicators {
    width: auto;
-    margin-left: 600px;
-    margin-top: 100px;
+    margin-right: 100px;
+
 }
 
 .silder-image{
@@ -620,5 +626,22 @@ padding-top: 20px;
     position: relative;
     display: flex;
     justify-content: center;
+
+
 }
 
+
+
+#quote p{
+    display: flex;
+    color: tan;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-left: 100px;
+max-width: 400px;
+
+
+}
