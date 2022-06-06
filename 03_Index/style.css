@@ -25,7 +25,7 @@ section {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 50px;
+    padding: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,34 +199,37 @@ position: absolute;
 .Über mich{
 width: 100%;
 padding: auto;
+
 }
 
 .main img{
-height: 400px;
+height: 500px;
 width: auto;
+    margin-left: 50px;
 
 }
 
 .main .gif{
-    height: 80px;
+    height: 90px;
     width: auto;
-    transform: rotate(10deg);
+    transform: rotate(15deg);
     display:flex;
    position: absolute;
-    padding-left: 160px;
-    margin-top: -60px;
+    padding-left: 220px;
+    margin-top: -80px;
 }
 .about-text{
 width: 500px;
     font-weight:500;
     font-size: 32px;
-    margin-left:100px;
+    margin-left:300px;
+    margin-top: 50px;
 
 
 }
 .main{
-width: 1130px;
-max-width: 95%;
+
+max-width: 100%;
 display-items: cover;
 display: flex;
 justify-content: flex-start;
@@ -383,8 +386,9 @@ position: relative;
 .container .containerInfo{
     z-index: 998;
     position: absolute;
-    width: 300px;
-    height: 500;
+    width: 280px;
+    margin-left: 50px;
+    opacity: 1;
     background: tan;
     padding: 25px;
     display: flex;
@@ -401,7 +405,7 @@ position: relative;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
-    padding-top: 1he5px;
+
 
 }
 .container .containerInfo ul.info{
@@ -452,13 +456,16 @@ position: relative;
 
 
 .container .containerForm{
-
+    z-index: 997;
     position: absolute;
     padding: 70px 70px;
     padding-left: 250px;
     margin-left: 70px;
-    width: 820px;
+    width: 920px;
     height: 100%;
+   box-shadow:  17px 16px 18px -3px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -594,7 +601,7 @@ position: relative;
 footer{
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 100px;
 
     background: tan;
     display: flex;
@@ -606,7 +613,7 @@ footer{
 }
 
 footer p:nth-child(1) {
-    font-size: 12px;
+    font-size: 16px;
     color: white;
     width: 500px;
     text-align: center;
@@ -620,7 +627,7 @@ padding-top: 20px;
 
 #carouselExampleIndicators {
    width: auto;
-    margin-right: 100px;
+    margin-right: 300px;
 
 }
 
@@ -628,7 +635,7 @@ padding-top: 20px;
 
 
     background-size: cover;
-    height: 400px;
+    height: 500px;
     width: auto;
     background-position: center;
     position: relative;
@@ -648,7 +655,7 @@ padding-top: 20px;
     font-weight: 500;
     letter-spacing: 1px;
     font-style: italic;
-    margin-left: 100px;
+    margin-left: 250px;
 max-width: 400px;
     background: tan;
     padding: 20px 30px;
