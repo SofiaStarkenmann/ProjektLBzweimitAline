@@ -215,8 +215,8 @@ width: auto;
     transform: rotate(15deg);
     display:flex;
    position: absolute;
-    padding-left: 220px;
-    margin-top: -80px;
+    padding-left: 400px;
+
 }
 .about-text{
 width: 500px;
@@ -663,4 +663,11 @@ max-width: 400px;
 
 
 
+}
+
+
+video{
+
+    width: 500px;
+    height: auto;
 }
